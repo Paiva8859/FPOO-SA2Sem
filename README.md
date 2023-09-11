@@ -2,9 +2,9 @@
     Grupo: Gabriel Aguilar Paiva, Guilherme Gama Brum e João Vittor Domingos de Jesus
 
 # Calculadora de custo de combustível:
-    Responsável: Gabriel Aguilar Paiva
-    Layout aplicado: Foi utilizado o GridBag para organizar os elementos no frame, pois utiliza a posição em grid x e y para determinar a posição dos elementos na tela
-    Funcionalidade: Foi criada uma ação executada ao clicar no botão de calcular, que lê as informações nos JLabels e executa os cálculos, exibindo o resultado das operações em uma Label de resultado já existente.
+Responsável: Gabriel Aguilar Paiva
+Layout aplicado: Foi utilizado o GridBag para organizar os elementos no frame, pois utiliza a posição em grid x e y para determinar a posição dos elementos na tela
+Funcionalidade: Foi criada uma ação executada ao clicar no botão de calcular, que lê as informações nos JLabels e executa os cálculos, exibindo o resultado das operações em uma Label de resultado já existente.
 
 # Calculadora Padrão:
     Responsável: Guilherme Gama Brum
