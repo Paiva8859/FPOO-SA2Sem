@@ -5,5 +5,8 @@ public class App {
 
         CalculadoraPadrao calculadoraPadrao = new CalculadoraPadrao();
         calculadoraPadrao.setVisible(true);
+
+        CalculadoraIMC calculadoraIMC = new CalculadoraIMC();
+        calculadoraIMC.createUI();
     }
 }
