@@ -1,4 +1,5 @@
 # FPOO-SA2Sem
+    Grupo: Gabriel Aguilar Paiva, Guilherme Gama Brum e João Vittor Domingos de Jesus
 
 # Calculadora de custo de combustível:
     Responsável: Gabriel Aguilar Paiva
