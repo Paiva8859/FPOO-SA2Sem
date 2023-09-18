@@ -49,8 +49,8 @@ public class CalculadoraIMC{
             public void actionPerformed(ActionEvent e){
                 //Getting the data from weight and height fields
                 try{
-                    double altura = Double.parseDouble(weightField.getText());
-                    double peso = Double.parseDouble(heightField.getText());
+                    double peso = Double.parseDouble(weightField.getText());
+                    double altura = Double.parseDouble(heightField.getText());
 
                     double IMC = peso / (altura * altura);
 
