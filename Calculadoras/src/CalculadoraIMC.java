@@ -6,6 +6,7 @@ import java.awt.event.ActionListener;
 public class CalculadoraIMC{
     
     public void createUI() {
+        //Creating a JFrame
         JFrame frame = new JFrame("Calculadora IMC");
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
@@ -18,7 +19,7 @@ public class CalculadoraIMC{
         JLabel resultLabel = new JLabel("IMC:");
         JTextField resultField = new JTextField(10);
         resultField.setEditable(false);
-
+        //Creating a BorderLayout panel
         JPanel panel = new JPanel(new BorderLayout());
 
         //Creating a input fields panel
@@ -28,20 +29,25 @@ public class CalculadoraIMC{
         inputPanel.add(heightLabel);
         inputPanel.add(heightField);
 
+        //Creating a panel to the calc button
         JPanel buttonPanel = new JPanel();
         buttonPanel.add(calculateButton);
 
+        //Creating a panel to display the result
         JPanel resultPanel = new JPanel();
         resultPanel.add(resultLabel);
         resultPanel.add(resultField);
 
+        //Adding the panels into the main panel
         panel.add(inputPanel, BorderLayout.NORTH);
         panel.add(buttonPanel, BorderLayout.CENTER);
         panel.add(resultPanel, BorderLayout.SOUTH);
 
+        //Add a listener to the calc button
         calculateButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e){
+                //Getting the data from weight and height fields
                 try{
                     double weight = Double.parseDouble(weightField.getText());
                     double height = Double.parseDouble(heightField.getText());
