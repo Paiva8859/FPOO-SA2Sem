@@ -10,7 +10,7 @@ public class CalculadoraPadrao extends JFrame {
 
     public CalculadoraPadrao() {
         setTitle("Calculator");
-        setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        setDefaultCloseOperation(1);
         setSize(300, 400);
         setLayout(new BorderLayout());
 

@@ -11,7 +11,7 @@ public class CalculadoraCombustivel extends JFrame {
 
     public CalculadoraCombustivel() {
         setTitle("Calculadora de Combustível");
-        setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        setDefaultCloseOperation(1);
         setSize(400, 200);
 
         JPanel panel = new JPanel(new GridBagLayout());

@@ -7,7 +7,7 @@ public class CalculadoraIMC{
     
     public void createUI() {
         JFrame frame = new JFrame("Calculadora IMC");
-        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        frame.setDefaultCloseOperation(1);
 
         //Creating the calculator components
         JLabel weightLabel = new JLabel("Peso (kg) (0.00) ");
