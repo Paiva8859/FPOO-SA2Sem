@@ -8,7 +8,7 @@ public class CalculadoraIMC{
     public void createUI() {
         //Creating a JFrame
         JFrame frame = new JFrame("Calculadora IMC");
-        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        frame.setDefaultCloseOperation(1);
 
         //Creating the calculator components
         JLabel weightLabel = new JLabel("Peso (kg) (0.00) ");
@@ -49,10 +49,10 @@ public class CalculadoraIMC{
             public void actionPerformed(ActionEvent e){
                 //Getting the data from weight and height fields
                 try{
-                    double weight = Double.parseDouble(weightField.getText());
-                    double height = Double.parseDouble(heightField.getText());
+                    double altura = Double.parseDouble(weightField.getText());
+                    double peso = Double.parseDouble(heightField.getText());
 
-                    double IMC = weight / (height * height);
+                    double IMC = peso / (altura * altura);
 
                     //Displaying the result inside the result field
                     resultField.setText(String.format("%.2f", IMC));
