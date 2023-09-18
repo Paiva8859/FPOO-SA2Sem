@@ -7,8 +7,9 @@ public class CalculadoraIMC{
     
     public void createUI() {
         JFrame frame = new JFrame("Calculadora IMC");
-        frame.setDefaultCloseOperation(1);
+        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
+        //Creating the calculator components
         JLabel weightLabel = new JLabel("Peso (kg) (0.00) ");
         JLabel heightLabel = new JLabel("Altura (m) (0.00):");
         JTextField weightField = new JTextField(10);
@@ -20,6 +21,7 @@ public class CalculadoraIMC{
 
         JPanel panel = new JPanel(new BorderLayout());
 
+        //Creating a input fields panel
         JPanel inputPanel = new JPanel(new GridLayout(2, 2));
         inputPanel.add(weightLabel);
         inputPanel.add(weightField);
@@ -55,8 +57,10 @@ public class CalculadoraIMC{
             }   
         });
 
+        //Addind the main panel to the frame
         frame.add(panel);
 
+        //Setting the dimension and making the frame visible
         frame.setSize(300, 200);
         frame.setVisible(true);
         frame.setResizable(false);
